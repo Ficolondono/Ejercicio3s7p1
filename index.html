@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio3</title>
+	<link rel="stylesheet" href="eestilos.css">
+
+    <script>
+    	function position(event){
+          var x = event.clientX;
+          var y = event.clientY; 
+          var mousePositions = document.getElementById('mousePositions'); 
+          mousePositions.innerHTML = 'X: '+x+', Y: '+y;
+
+          if (x>=342 && x<=1023 && y>=166 && y<=491) {
+          	micuadro.innerHTML = 'Estoy dentro del cuadro';
+          }
+          else
+          {
+          	micuadro.innerHTML = 'Estoy fuera del cuadro';
+          }
+           }   
+    </script>
+
+</head>
+<body onmousemove="position(event)"  onMousedown="cli(event)">
+	<div id="mousePositions"></div>
+	<div id="entero" class="total"></div>
+	<div id="micuadro" class="sip"></div>
+
+</body>
+</html>
