@@ -67,3 +67,17 @@
 			font-size: 60px;
 			line-height: 570%;
 		}
+		.enlac{
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+	font-family: Aharoni;
+	font-size: 20px;
+	border-radius:10px 50px 10px 50px;
+	background-color: #87F0B3;
+	color: #052E02;
+	display: block;
+	width: 420px;
+	height: 70px;
+	align-content: center;
+}
